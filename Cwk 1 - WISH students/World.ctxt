@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=World
+comment0.text=\r\n\ An\ world\ is\ part\ of\ a\ WISH\ resort.Each\ world\ has\ a\ reference\ number,\ name,\ \r\n\ a\ luxury\ rating\ and\ a\ capacity\ which\ represents\ the\ maximum\ number\ of\ \r\n\ cards\ that\ can\ be\ on\ the\ world\ at\ any\ one\ time.\ Each\ world\ must\ \r\n\ maintain\ a\ list\ of\ all\ cards\ currently\ on\ that\ world.\ This\ list\ \r\n\ is\ updated\ whenever\ cards\ arrive\ or\ leave\ a\ world,so\ that\ it\ is\ always\ \r\n\ possible\ to\ say\ which\ cards\ are\ on\ the\ world\ and\ who\ they\ are.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=worldNumber\ name\ luxuryRating\ capacity
+comment1.target=World(int,\ java.lang.String,\ int,\ int)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=int\ getWorldNumber()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=int\ getLuxuryRating()
+comment5.params=cardId
+comment5.target=boolean\ isCardOnWorld(int)
+comment6.params=
+comment6.target=boolean\ hasCapacity()
+comment7.params=card
+comment7.target=void\ arrive(Card)
+comment8.params=card
+comment8.target=void\ leave(Card)
+comment9.params=cardId
+comment9.target=Card\ getCardById(int)
+numComments=11

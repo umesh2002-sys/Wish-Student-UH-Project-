@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ A\ Card\ has\ an\ id\ number,\ name,\ a\ luxury\ rating\ ,\ number\ of\ bitcoins,\ points.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=cardId\ name\ luxuryRating\ bitcoins
+comment1.target=Card(int,\ java.lang.String,\ int,\ int)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=int\ getCardId()
+comment3.params=
+comment3.target=int\ getLuxuryRating()
+comment4.params=
+comment4.target=int\ getBitcoins()
+comment5.params=amount
+comment5.target=void\ addBitcoins(int)
+comment6.params=amount
+comment6.target=void\ deductBitcoins(int)
+comment7.params=requiredBitcoins
+comment7.target=boolean\ hasEnoughBitcoins(int)
+comment8.params=
+comment8.target=void\ convertPointsToBitcoins()
+comment9.params=
+comment9.target=void\ updateAfterShuttleJourney()
+numComments=11

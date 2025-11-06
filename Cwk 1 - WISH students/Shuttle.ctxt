@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Shuttle
+comment0.text=\r\n\ A\ shuttle\ provides\ a\ one-way\ connection\ between\ two\ worlds.\ It\r\n\ has\ a\ Shuttle\ code\ and\ information\ about\ both\ the\ source\ and\r\n\ the\ destination\ world\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=journeyCode\ fromWorld\ toWorld
+comment1.target=Shuttle(java.lang.String,\ World,\ World)
+comment2.params=
+comment2.target=java.lang.String\ getJourneyCode()
+comment3.params=
+comment3.target=World\ getFromWorld()
+comment4.params=
+comment4.target=World\ getToWorld()
+comment5.params=card
+comment5.target=boolean\ canCardEnter(Card)
+comment6.params=card
+comment6.target=java.lang.String\ processCardMovement(Card)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
